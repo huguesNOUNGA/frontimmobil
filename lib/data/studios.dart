@@ -1,0 +1,167 @@
+import 'package:real_estate/model/house.dart';
+
+final house1 = House(
+    imageUrl: 'assets/studios/s1.jpg', 
+    address: 'Logpom ', 
+    description: "Studio moderne haut standing propre nouvellement construit a l'immeuble bien accessible  20m du goudron dans un cadre areable et bien securise. une chambre avec placard, un salon, i douche, compteur prepayer, eau forae, gardien jour et nuit, parking voiture et moto", 
+    price: 135000, bathRooms: 2,
+    bedRooms: 1,
+    sqFeet: 2.34, 
+    time: 15, 
+    garages: 1, 
+    moreTmageUrl: [
+        'assets/studios/s1.jpg', 
+        'assets/studios/s11.jpg',
+        'assets/studios/s12.jpg', 
+        'assets/studios/s13.jpg', 
+        'assets/studios/s14.jpg', 
+        'assets/studios/s15.jpg', 
+        'assets/studios/s16.jpg',    
+        'assets/studios/s17.jpg', 
+    ],
+    isFav: false,
+);
+final house2 = House(
+    imageUrl: 'assets/studios/s2.jpg', 
+    address: 'Makepe Saint Tropeze ', 
+    description: "Studio moderne haut standing propre nouvellement construit a l'immeuble bien accessible  20m du goudron dans un cadre areable et bien securise. une chambre avec placard, un salon, i douche, compteur prepayer, eau forae, gardien jour et nuit, parking voiture et moto", 
+    price: 50000, bathRooms: 2,
+    bedRooms: 1,
+    sqFeet: 2.34, 
+    time: 15, 
+    garages: 1, 
+    moreTmageUrl: [
+        'assets/studios/s2.jpg', 
+        'assets/studios/s21.jpg',
+        'assets/studios/s22.jpg', 
+        'assets/studios/s23.jpg', 
+        'assets/studios/s24.jpg', 
+        'assets/studios/s25.jpg', 
+    ],
+    isFav: false,
+);
+final house3 = House(
+    imageUrl: 'assets/studios/s3.jpg', 
+    address: 'Lobessou, Douala ', 
+    description: "Studio moderne haut standing propre nouvellement construit a l'immeuble bien accessible  20m du goudron dans un cadre areable et bien securise. une chambre avec placard, un salon, i douche, compteur prepayer, eau forae, gardien jour et nuit, parking voiture et moto", 
+    price: 70000, bathRooms: 2,
+    bedRooms: 1,
+    sqFeet: 2.34, 
+    time: 15, 
+    garages: 1, 
+    moreTmageUrl: [
+        'assets/studios/s3.jpg', 
+        'assets/studios/s31.jpg',
+        'assets/studios/s32.jpg', 
+        'assets/studios/s33.jpg', 
+        'assets/studios/s34.jpg', 
+        'assets/studios/s35.jpg', 
+        'assets/studios/s36.jpg',    
+        
+    ],
+    isFav: false,
+);
+final house4 = House(
+    imageUrl: 'assets/studios/s1.jpg', 
+    address: 'Kotto ', 
+    description: "Studio a kotto. wone securisee avec une route proticable. un salon, une grande chambre avec placards, une douche bien equipee, une grande cuisine correctement meublee, un balcons, gardien 24/24, parking, compteur prepayer, forage, balcon personnel", 
+    price: 40000, bathRooms: 2,
+    bedRooms: 1,
+    sqFeet: 2.34, 
+    time: 15, 
+    garages: 1, 
+    moreTmageUrl: [
+        'assets/studios/s4.jpg', 
+        'assets/studios/s41.jpg',
+        'assets/studios/s42.jpg', 
+        'assets/studios/s43.jpg', 
+        'assets/studios/s44.jpg', 
+        'assets/studios/s45.jpg', 
+        'assets/studios/s46.jpg',    
+        
+    ],
+    isFav: false,
+);
+final house5 = House(
+    imageUrl: 'assets/studios/s5.jpg', 
+    address: 'Logpom, Andem ', 
+    description: "Magnifique studio tres vaste a louer situe derriere le carrefour andem a 150f a moto de la route principale. un salon , une chambre, une cuisine, une douche equiee, un parking ferme, compteur prepayerm eau forage", 
+    price: 80000, bathRooms: 1,
+    bedRooms: 1,
+    sqFeet: 2.34, 
+    time: 15, 
+    garages: 1, 
+    moreTmageUrl: [
+        'assets/studios/s5.jpg', 
+        'assets/studios/s51.jpg',
+        'assets/studios/s52.jpg', 
+        'assets/studios/s53.jpg', 
+        'assets/studios/s54.jpg', 
+    ],
+    isFav: false,
+);
+final house6 = House(
+    imageUrl: 'assets/studios/s6.jpg', 
+    address: 'Kotto, carrefour des immeubles ', 
+    description: "Studio moderne a kotto carrefour des immubles a 200f de l'entree baden ba den ou fin goudron Mbanggue. 1 salon avec balcon, une cuisine equipee avec armoire de rangement + balcon, une chambre, deux douches, forage, compteur prepaye, parking ", 
+    price: 75000, bathRooms: 1,
+    bedRooms: 1,
+    sqFeet: 2.34, 
+    time: 15, 
+    garages: 1, 
+    moreTmageUrl: [
+        'assets/studios/s6.jpg', 
+        'assets/studios/s61.jpg',
+        'assets/studios/s62.jpg', 
+        'assets/studios/s63.jpg', 
+        'assets/studios/s64.jpg', 
+        'assets/studios/s65.jpg', 
+        'assets/studios/s66.jpg',    
+        'assets/studios/s67.jpg',
+        'assets/studios/s68.jpg', 
+        'assets/studios/s69.jpg',    
+        'assets/studios/s10.jpg', 
+    ],
+    isFav: false,
+);
+final house7 = House(
+    imageUrl: 'assets/studios/s7.jpg', 
+    address: 'PK17 ', 
+    description: "Large studio climstise a lour a l'immeuble BK pres de l'universite de douala PK17. grand balcon pour profiter de l'exterieur, climatisation pour confort optimal, forage, panneaux soloaire, immeuble securise. ce logement est parfait pour les etuiants et les jeunes actifs recherchant un cadre de vie agrable et bien equipe.", 
+    price: 40000, bathRooms: 2,
+    bedRooms: 1,
+    sqFeet: 2.34, 
+    time: 15, 
+    garages: 1, 
+    moreTmageUrl: [
+        'assets/studios/s7.jpg', 
+        'assets/studios/s71.jpg',
+        'assets/studios/s72.jpg', 
+        'assets/studios/s73.jpg', 
+        'assets/studios/s74.jpg', 
+        'assets/studios/s75.jpg', 
+        'assets/studios/s76.jpg',    
+        'assets/studios/s77.jpg',
+        'assets/studios/s78.jpg',    
+        'assets/studios/s79.jpg', 
+    ],
+    isFav: false,
+);
+
+final List<House> houseListStudio = [
+        house1,
+        house2,
+        house3,
+        house4,
+        house5,
+        house6,
+        house7,
+    ];
+
+    List<String> categoryListStudio = [
+        '<500.000 FCFA',
+        'For sale',
+        '1-2 bed room',
+        '0-3 Garages',
+        '0-2 kitchen'
+    ];
